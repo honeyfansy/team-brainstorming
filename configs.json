@@ -1,0 +1,37 @@
+{
+  "saved_configs": [
+    {
+      "name": "默认（4 角色）",
+      "interventionMode": "smart_pause",
+      "agents": [
+        { "thinkingStyle": "divergent", "count": 1, "label": "发散者" },
+        { "thinkingStyle": "critical", "count": 1, "label": "批判者" },
+        { "thinkingStyle": "synthesizer", "count": 1, "label": "整合者" },
+        { "thinkingStyle": "practical", "count": 1, "label": "实干者" }
+      ]
+    },
+    {
+      "name": "全员（6 角色）",
+      "interventionMode": "smart_pause",
+      "agents": [
+        { "thinkingStyle": "divergent", "count": 1, "label": "发散者" },
+        { "thinkingStyle": "critical", "count": 1, "label": "批判者" },
+        { "thinkingStyle": "synthesizer", "count": 1, "label": "整合者" },
+        { "thinkingStyle": "practical", "count": 1, "label": "实干者" },
+        { "thinkingStyle": "user_advocate", "count": 1, "label": "用户代言" },
+        { "thinkingStyle": "neutral", "count": 1, "label": "中立观察" }
+      ]
+    },
+    {
+      "name": "架构脑暴（5角色）",
+      "interventionMode": "automatic",
+      "agents": [
+        { "thinkingStyle": "divergent", "count": 1, "label": "发散者", "perspective": "后台架构师" },
+        { "thinkingStyle": "critical", "count": 1, "label": "批判者", "perspective": "DDD领域专家" },
+        { "thinkingStyle": "neutral", "count": 1, "label": "中立观察", "perspective": "数据架构师" },
+        { "thinkingStyle": "synthesizer", "count": 1, "label": "整合者", "perspective": "定价领域专家" },
+        { "thinkingStyle": "user_advocate", "count": 1, "label": "用户代言", "perspective": "业务运营视角" }
+      ]
+    }
+  ]
+}

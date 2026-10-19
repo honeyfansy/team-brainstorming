@@ -1,0 +1,8 @@
+{
+  "comment": "Copy this to llm.config.json and fill in your values",
+  "provider": "anthropic",
+  "baseURL": "",
+  "apiKey": "",
+  "defaultModel": "claude-sonnet-4-6",
+  "modelMap": {}
+}
